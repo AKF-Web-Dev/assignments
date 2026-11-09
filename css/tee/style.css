@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f9fc;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: white;
+  width: 85%;
+  max-width: 850px;
+
+  padding: 30px;
+  text-align: center;
+
+  border-radius: 35px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Image */
+.profile-img {
+  width: 365px;
+  height: 365px;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  margin-bottom: 30px;
+}
+
+/* Name */
+.profile-card h1 {
+  color: #071638;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+/* Profession */
+.profile-card h2 {
+  color: #657186;
+  font-size: 35px;
+  font-weight: normal;
+
+  margin-bottom: 25px;
+}
+
+/* Horizontal Line */
+.profile-card hr {
+  border: none;
+  border-top: 2px solid #d5deeb;
+
+  margin: 20px 10px 30px;
+}
+
+/* Contact Information */
+.profile-card p {
+  color: #071638;
+  font-size: 30px;
+
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .profile-card {
+    width: 92%;
+    padding: 25px 15px;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-card h1 {
+    font-size: 30px;
+  }
+
+  .profile-card h2 {
+    font-size: 22px;
+  }
+
+  .profile-card p {
+    font-size: 17px;
+  }
+}
