@@ -1,0 +1,27 @@
+section img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray   ;
+    border-radius: 50%;
+}
+section{
+    text-align: center;
+    margin: 80px 500px 0 700px;
+    padding: 70px;
+    border: 2px solid gray;
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.p1{
+    color: gray;
+    font-family: arial;
+    font-family: times;
+}
+section hr{
+    color: gray;
+}
+.first{
+    font-family: Arial;
+}
