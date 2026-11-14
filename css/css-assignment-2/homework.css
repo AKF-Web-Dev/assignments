@@ -34,12 +34,15 @@ aside a{
     text-align: left;
     text-decoration: none;
     color: white;
-    background-color: rgb(169, 163, 244);
+    background-color: rgb(73, 71, 92);
     padding:8px;
     border-radius: 10px;
     
     
 
+}
+.first{
+    background-color: rgb(43, 64, 217);
 }
 aside img{  
     border: 3px solid white;
