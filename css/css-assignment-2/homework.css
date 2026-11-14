@@ -41,7 +41,8 @@ aside a{
     
 
 }
-aside img{ 
+aside img{  
+    border: 3px solid white;
     margin:20px auto;
     width:150px;
     height:150px;
