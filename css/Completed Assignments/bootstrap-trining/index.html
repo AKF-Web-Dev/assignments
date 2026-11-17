@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Assignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .navbar {
+      background-color: #0d6efd;
+    }
+
+    
+    .hero {
+      background: linear-gradient(110deg, #0d6efd, #0dcaf0);
+      color: #fff;
+      padding: 64px 0;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.5rem, 4.5vw, 3.5rem);
+      font-weight: 300;
+    }
+
+
+    .card-space {
+      height: 184px;
+    }
+
+    .contact-card {
+      margin-top: 24px;
+    }
+
+    .contact-card .card-header {
+      background-color: #f8f9fa;
+    }
+    
+    footer {
+      margin-top: 80px;
+      padding: 24px 12px;
+      background-color: #343a40;
+      color: #adb5bd;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <!-- Nav Bar Section -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-medium" href="#">Bootstrap Assignment</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavigation">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Responsive Web Page with Bootstrap</h1>
+      <p class="fs-5 mb-2">A basic Bootstrap example covering navbar, grid, cards, forms and component usage.</p>
+      <a class="btn btn-success btn-lg" href="#features">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Cards Section  -->
+  <main class="container py-5">
+    <section class="row g-4" id="features" aria-label="Features">
+      <div class="col-md-4">
+        <article class="card assignment-card h-100">
+          <div class="card-space" aria-hidden="true"></div>
+          <div class="card-body">
+            <h2 class="h5 card-title">Column 1</h2>
+            <p class="card-text text-secondary">One of three columns.</p>
+            <a href="#" class="btn btn-primary">Learn more</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <article class="card assignment-card h-100">
+          <div class="card-space" aria-hidden="true"></div>
+          <div class="card-body">
+            <h2 class="h5 card-title">Column 2</h2>
+            <p class="card-text text-secondary">One of three columns.</p>
+            <a href="#" class="btn btn-primary">Learn more</a>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-4">
+        <article class="card assignment-card h-100">
+          <div class="card-space" aria-hidden="true"></div>
+          <div class="card-body">
+            <h2 class="h5 card-title">Column 3</h2>
+            <p class="card-text text-secondary">One of three columns.</p>
+            <a href="#" class="btn btn-primary">Learn more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- Form Section -->
+    <section class="card contact-card" aria-labelledby="contactHeading">
+      <div class="card-header" id="contactHeading">Contact Form</div>
+      <div class="card-body">
+        <form>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label" for="name">Name</label>
+              <input class="form-control" id="name" type="text" placeholder="Your name">
+            </div>
+            <div class="col-md-6">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-control" id="email" type="email" placeholder="your@email.com">
+            </div>
+            <div class="col-12">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-control" id="message" placeholder="Write something"></textarea>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" id="terms" type="checkbox">
+                <label class="form-check-label" for="terms">I agree to the terms</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-success" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="text-center">
+    <div class="container">© 2026 Bootstrap Assignment </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
