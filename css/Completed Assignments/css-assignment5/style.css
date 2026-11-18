@@ -1,4 +1,7 @@
-
+:root{
+    --background-color:#e5f2fc; 
+    --font-size: 19px;
+}
 
 
 
@@ -23,9 +26,9 @@ body{
     align-items: center;
     text-align: center;
     /* gap: 19px; */
-    font-size: 19px;
+    font-size: var(--font-size);
     border-radius: 30px;
-    background-color: #e5f2fc;
+    background-color: var(--background-color);
     padding: 4px;
     justify-content: space-between;
     width: 50%;
