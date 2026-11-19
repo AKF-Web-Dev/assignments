@@ -20,7 +20,7 @@ body {
   align-items: center;
 }
 
-.continer {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,12 +61,12 @@ body {
 #cont-btn div{
   background-color:rgb(55, 94, 23);
   padding: 10px;
- border-radius: 20px;
+  border-radius: 20px;
 }
 .dark-light{
   display: flex;
   gap: 10px;
-  margin-top: 25px;g
+  margin-top: 25px;
 }
 
 
