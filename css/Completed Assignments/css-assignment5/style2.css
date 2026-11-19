@@ -47,6 +47,30 @@ body {
   margin-bottom: 10px;
 }
 
+#cont-btn{
+  background-color: black;
+  /* padding: 5px 25px 5px 25px; */
+  padding-left: 2px;
+  padding-right: 36px;
+  padding-bottom: 1.8px;
+  padding-top: 1.5px;
+  border-radius: 20px;
+
+}
+
+#cont-btn div{
+  background-color:rgb(55, 94, 23);
+  padding: 10px;
+ border-radius: 20px;
+}
+.dark-light{
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;g
+}
+
+
+
 .cards {
   display: flex;
   justify-content: center;
