@@ -1,0 +1,70 @@
+*,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./photo/background3.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.profile-container{
+height: 50%;
+width: 20%;
+padding: 20px;
+background-color: rgba(0, 0, 0, 0.197);
+border-radius: 20px;
+/* backdrop-filter has two values
+1- blur
+2- saturate */
+backdrop-filter:blur(20px) saturate(200%);
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 10px;
+box-shadow: 20px;
+}
+.profile-container img{
+    border-radius: 50%;
+    border: 3px solid rgb(174, 173, 87);
+    height:100%;
+    width: 50%;
+    margin-top: 0;
+   
+} 
+.profile-container article h1{
+    font-size: 3rem;
+    color: white;
+}
+.profile-container article p{
+    font-size: 1.6rem;
+    color: rgb(230, 183, 29);
+    font-weight: bold;
+}
+.icon-container a{
+    padding: 20px;
+  ;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+.icon-container i{
+    font-size: 2.5rem;
+    color: rgb(234, 196, 45);
+}
+.profile-container span button{
+    border: none;
+    
+    padding: 15px 50px 15px 50px;
+    border-radius: 30px;
+    font-size:1.6rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(197, 161, 44);
+}
