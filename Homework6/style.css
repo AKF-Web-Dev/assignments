@@ -1,0 +1,51 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body{
+    height:100vh;
+    width: 100vw;
+    background-image:url("./image/Qausre.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.mainbar{
+    width: 60%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    line-height: 50px;
+    backdrop-filter: blur(5px) saturate(300%);
+}
+main article h1{
+    color: white;
+    font-size: 5rem;
+}
+main article p{
+    font-size: 3rem;
+    color: white;
+}
+main div button{ 
+    margin: 30px;
+    padding:20px 70px 20px 70px;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.349);
+    color: white;
+    border-radius: 30px;
+    font-size: 2rem;
+}
+i{
+    margin-top: 10px;
+    font-size: 6rem;
+    color: white;
+}
