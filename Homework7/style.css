@@ -1,0 +1,197 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    
+}
+main{
+    background-color:rgb(236, 236, 236);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    width:90%;
+    height:90%;
+    border: 2px solid rgb(252, 253, 253);
+    padding:30px;
+    gap:30px;
+    border-radius: 35px;
+}
+main section{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 30px;
+}
+main section span{
+    font-size: 2rem;
+    background-color: white;
+    padding: 5px 0px 5px 0px;
+    color:rgb(75, 75, 235);
+    border-radius: 30px;
+    text-align: center;
+    display: inline;
+    
+}
+main section h1{
+    font-size: 3rem;
+    margin-top: 0;
+}
+main section p{
+    color: gray;
+    font-size: 1rem;
+}
+.div-container{
+    display: flex;
+    margin-top: 0%;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    height:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:30px;
+}
+.div-1, .div-2, .div-3{
+    width: 25%;
+    height: 90%;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.1),
+    10px 10px 0px 0px rgba(0, 0, 0, 0.1);
+    line-height:15px;
+}
+img{
+    width: 100%;
+    height: 40%;
+    border-radius: 15px;
+    padding:0px;
+
+}
+.div-container .div-1 figure{
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+.div-container article{
+    padding: 10px;
+    font-size: rem;
+}
+.div-container .div-1 figure h3{
+    font-size: 2rem;
+}
+.div-container .div-1 figure p{
+    color: rgb(103, 102, 102);
+}
+
+
+
+
+.div-container .div-2 figure{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.div-container .div-2 figure h3{
+    font-size: 2rem;
+}
+.div-container .div-2 figure p{
+    color: rgb(103, 102, 102);
+}
+.div-2 .first{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+
+
+
+.div-container .div-3 figure{
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+
+.div-container .div-3 figure h3{
+    font-size: 2rem;
+}
+.div-container .div-3 figure p{
+    color: rgb(103, 102, 102);
+}
+
+
+
+
+
+
+
+
+
+
+
+ul{
+    list-style-type:"✓";
+    font-size: 1.5rem;
+}
+ul li::marker{
+    color: blue;
+    font-size: 1rem;
+}
+.button1{
+    padding: 10px;
+    border: 2px solid blue;
+    color: blue;
+    border-radius:10px;
+}
+
+
+.button2{
+    margin-top: 0%;
+    padding: 10px;
+    background-color: rgb(111, 111, 250);
+    color:white;
+    border-radius:10px;
+}
+
+
+
+.button3{
+    padding: 10px;
+    border: 2px solid blue;
+    color: blue;
+    border-radius:10px;
+}
