@@ -1,0 +1,33 @@
+*, html{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding:30px;
+}
+h5{
+    margin:15px 0px 15px 0px;
+    color: red;
+}
+ul{
+    /* 1-Remobe the symbols */
+    /* list-style: none; */
+    /* circle list symbols
+    2- list-style-type:circle; */
+    /* 3- square list symbols */
+    /* list-style-type: square; */
+    list-style-type:"✓";
+}
+ul{
+    ul li ::marker{
+                color:green
+    }
+}
+ol{
+    /* list-style-type: none; */
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type:lower-alpha; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type:persian; */
+    list-style-position: inside;
+}
